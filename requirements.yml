@@ -1,0 +1,17 @@
+name: r-bromii-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pip
+  - pip:
+      - seaborn
+      - biopython
+      - scipy>=1.15
+      - openpyxl
+      - scikit-learn
+      - scikit-bio
+      - lxml_html_clean
+      - ruff
